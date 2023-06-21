@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 
-const signatureDropAddress = "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2";
+const signatureDropAddress = "0xe8A36dDfE6a838157f149114b5792E29048Fc0E5";
 
 const Home: NextPage = () => {
   const address = useAddress();
