@@ -11,7 +11,7 @@ export default async function generateMintSignature(
   // Get the Early Access NFT Edition Drop contract
   const polygonSDK = new ThirdwebSDK("polygon");
   const earlyAccessNfts = await polygonSDK.getContract(
-    "0xa9e893cc12026a2f6bd826fdb295eac9c18a7e88",
+    "0xe8A36dDfE6a838157f149114b5792E29048Fc0E5",
     "edition-drop"
   );
 
@@ -34,7 +34,7 @@ export default async function generateMintSignature(
     "goerli"
   );
   const signatureDrop = await goerliSDK.getContract(
-    "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2",
+    "0xe8A36dDfE6a838157f149114b5792E29048Fc0E5",
     "signature-drop"
   );
 
